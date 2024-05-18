@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>FoodTrove</title>
+    <!-- fonts -->
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <!-- icons -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/output.css">
+
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <!-- navbar start -->
+        <div class="navbar py-3 shadow-md">
+            <div class="container flex">
+                <div class="w-2/12 flex items-center">
+                    <div class="toggle bg-white border border-border rounded-md p-2 inline-block">
+                        <img src="./assets/images/Icon.png" alt="">
+                    </div>
+                </div>
+                <div class="w-8/12 flex justify-center items-center">
+                    <nav>
+                        <ul class="flex">
+                            <li class="py-2 px-4">
+                                <a href="#" class="text-sm font-medium">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="py-2 px-4">
+                                <a href="#" class="text-sm font-medium">
+                                    Category
+                                    <i class="fa-solid fa-angle-down ml-1"></i>
+                                </a>
+                            </li>
+                            <li class="py-2 px-4">
+                                <a href="#" class="text-sm font-medium">
+                                    Products
+                                    <i class="fa-solid fa-angle-down ml-1"></i>
+                                </a>
+                            </li>
+                            <li class="py-2 px-4">
+                                <a href="#" class="text-sm font-medium">
+                                    Pages
+                                    <i class="fa-solid fa-angle-down ml-1"></i>
+                                </a>
+                            </li>
+                            <li class="py-2 px-4">
+                                <a href="#" class="text-sm font-medium">
+                                    Blog
+                                    <i class="fa-solid fa-angle-down ml-1"></i>
+                                </a>
+                            </li>
+                            <li class="py-2 px-4">
+                                <a href="#" class="text-sm font-medium">
+                                    Elements
+                                    <i class="fa-solid fa-angle-down ml-1"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="w-2/12 flex items-center justify-end">
+                    <div class="contact">
+                        <a href="#" class="font-light text-sm">
+                            <i class="fa-solid fa-phone"></i>
+                            +123 (456) (7890)
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- navbar end -->
+        <!-- menu start -->
+        <div class="menu">
+            <div class="container flex items-center">
+                <div class="w-2/12">
+                    <img src="./assets/images/logo/logo.png" alt="logo">
+                </div>
+                <div class="w-7/12 py-4">
+                    <form action="#" class="flex">
+                        <input type="text" placeholder="Search For items..."
+                            class="border p-3 rounded-l-md border-[#64B496] placeholder:text-sm outline-none w-full">
+                        <select name="name" class="outline-none border border-x-0 border-[#64B496] p-3 font-light">
+                            <option value="">All Categories</option>
+                            <option value="">Categories 1</option>
+                            <option value="">Categories 2</option>
+                        </select>
+                        <div class="search bg-red py-3 px-4 rounded-r-md">
+                            <a href="#" class="text-white">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+                <div class="w-3/12 flex justify-end">
+                    <div class="account">
+                        <a href="#">
+                            <i class="fa-regular fa-user mr-1"></i>
+                            Account
+                        </a>
+                    </div>
+                    <div class="whishlist mx-3">
+                        <a href="#">
+                            <i class="fa-regular fa-heart mr-1"></i>
+                            Whishlist
+                        </a>
+                    </div>
+                    <div class="account">
+                        <a href="#">
+                            <i class="fa-solid fa-cart-shopping mr-1"></i>
+                            Cart
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- menu end -->
+    </header>
+    <!-- header end -->
+    <!-- main start -->
+    <main>
+        <!-- banner start -->
+        <section class="banner py-44 bg-no-repeat bg-cover relative"
+            style="background-image: url(./assets/images/banner/banner.jpg);">
+            <img src="./assets/images/vector/__after.png" alt="vector" class="absolute bottom-0 left-[50%]">
+            <img src="./assets/images/vector/__before.png" alt="vector" class="absolute top-0 left-[40%]">
+            <div class="container">
+                <div class="w-6/12">
+                    <div class="banner-heading">
+                        <div class="flex items-center">
+                            <span class="text-xl text-red font-bold underline">100%</span>
+                            <p class="text-xl font-semibold ml-3">Organic Vegetables</p>
+                        </div>
+                        <h1 class="text-[55px] font-serif">The best way to <br>
+                            stuff your wallet.</h1>
+                        <p class="text-[15px] text-para my-6">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Amet <br>
+                            reiciendis beatae consequuntur.</p>
+                        <div class="btn bg-red inline-block py-2 px-5 rounded-md">
+                            <a href="#" class="font-medium text-white">
+                                Shop Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-6/12"></div>
+            </div>
+        </section>
+        <!-- banner end -->
+        <!-- shop start -->
+        <section class="shop py-[100px] relative">
+            <img src="./assets/images/vector/vec1.png" alt="vector" class="absolute top-28 right-6">
+            <div class="container flex">
+                <div class="w-4/12 pr-4">
+                    <div class="tab-list">
+                        <ul>
+                            <li class="py-4 bg-[#F7F7F8] border rounded-md border-border text-center mb-3">
+                                <a href="#" class="text-red font-medium">Cake & Milk
+                                    <span class="block text-xs text-para font-normal mt-1">(65 items)</span>
+                                </a>
+                            </li>
+                            <li
+                                class="py-4 bg-[#F7F7F8] border rounded-md border-border text-center mb-3 hover:text-red transition-all duration-300">
+                                <a href="#" class="font-medium">Fresh Meat
+                                    <span class="block text-xs text-para font-normal mt-1">(30 items)</span>
+                                </a>
+                            </li>
+                            <li
+                                class="py-4 bg-[#F7F7F8] border rounded-md border-border text-center mb-3 hover:text-red transition-all duration-300">
+                                <a href="#" class="font-medium">Vegetables
+                                    <span class="block text-xs text-para font-normal mt-1">(25 items)</span>
+                                </a>
+                            </li>
+                            <li
+                                class="py-4 bg-[#F7F7F8] border rounded-md border-border text-center mb-3 hover:text-red transition-all duration-300">
+                                <a href="#" class="font-medium">Apple & Mango
+                                    <span class="block text-xs text-para font-normal mt-1">(45 items)</span>
+                                </a>
+                            </li>
+                            <li
+                                class="py-4 bg-[#F7F7F8] border rounded-md border-border text-center mb-3 hover:text-red transition-all duration-300">
+                                <a href="#" class="font-medium">Strawberry
+                                    <span class="block text-xs text-para font-normal mt-1">(68 items)</span>
+                                </a>
+                            </li>
+                            <li class="py-4 bg-[#F7F7F8] border rounded-md border-border text-center">
+                                <a href="#" class="text-red font-medium">View More
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w-4/12 pr-4">
+                    <div class="shop-img relative">
+                        <img src="./assets/images/shop1.jpg" alt="" class="w-full">
+                        <div class="shop-text absolute top-0 left-5">
+                            <span class="text-[54px] font-bold text-white flex items-center font-serif">50
+                                <p class="text-xl font-normal"><sup>%</sup>OFF</p>
+                            </span>
+                        </div>
+                        <div class="text-foot absolute bottom-16 right-[50%] text-center"
+                            style="transform: translate(50%,50%);">
+                            <h6 class="font-semibold text-[22px] text-white mb-2">Cake</h6>
+                            <div class="btn bg-red inline-block py-2 px-5 rounded-md">
+                                <a href="#" class="font-medium text-white">
+                                    Shop Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-4/12 pr-4">
+                    <div class="shop-img relative">
+                        <img src="./assets/images/shop2.jpg" alt="" class="w-full">
+                        <div class="shop-text absolute top-0 left-5">
+                            <span class="text-[54px] font-bold text-white flex items-center font-serif">40
+                                <p class="text-xl font-normal"><sup>%</sup>OFF</p>
+                            </span>
+                        </div>
+                        <div class="text-foot absolute bottom-16 right-[50%] text-center"
+                            style="transform: translate(50%,50%);">
+                            <h6 class="font-semibold text-[22px] text-white mb-2">Milk</h6>
+                            <div class="btn bg-red inline-block py-2 px-5 rounded-md">
+                                <a href="#" class="font-medium text-white">
+                                    Shop Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- shop end -->
+        <!-- popular products start -->
+        <section class="popular-products pb-[100px] relative">
+            <img src="./assets/images/vec3.png" alt="vector" class="absolute top-[40%] left-2">
+            <div class="container">
+                <div class="sec-title text-center mb-[30px]">
+                    <h2 class="text-[32px] font-semibold mb-3">Popular Products</h2>
+                    <p class="text-para text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor <br>
+                        incididunt ut labore lacus vel facilisis.</p>
+                </div>
+                <div class="flex">
+                    <div class="w-3/12 mr-5">
+                        <div class="tab-list">
+                            <ul>
+                                <li class="py-3 px-4 bg-[#F7F7F8] border rounded-md border-border mb-3">
+                                    <a href="#" class="text-red font-medium flex justify-between items-center">All
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </li>
+                                <li
+                                    class="py-3 px-4 bg-[#F7F7F8] border rounded-md border-border mb-3 hover:text-red transition-all duration-300">
+                                    <a href="#" class="font-medium flex justify-between items-center">Snack
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </li>
+                                <li
+                                    class="py-3 px-4 bg-[#F7F7F8] border rounded-md border-border mb-3 hover:text-red transition-all duration-300">
+                                    <a href="#" class="font-medium flex justify-between items-center">Vegetable
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </li>
+                                <li
+                                    class="py-3 px-4 bg-[#F7F7F8] border rounded-md border-border mb-3 hover:text-red transition-all duration-300">
+                                    <a href="#" class="font-medium flex justify-between items-center">Fruit
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </li>
+                                <li
+                                    class="py-3 px-4 bg-[#F7F7F8] border rounded-md border-border mb-3 hover:text-red transition-all duration-300">
+                                    <a href="#" class="font-medium flex justify-between items-center">Bakery
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="product-banner relative">
+                            <img src="./assets/images/product-banner.jpg" alt="" class="w-full h-[625px]">
+                            <div class="prod-text absolute top-24 left-8">
+                                <span class="font-serif text-[40px] text-white font-light">Juicy</span>
+                                <span class="font-serif text-[38px] block text-[#F7E8AA] font-bold">FRUITS</span>
+                                <p class="text-white font-light">100% Natural</p>
+                                <div class="btn bg-red inline-block py-2 px-5 rounded-md mt-4">
+                                    <a href="#" class="font-medium text-white">
+                                        Shop Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-9/12 flex flex-wrap">
+                        <div class="w-4/12 px-3">
+                            <div class="product-card border border-border rounded-md p-3">
+                                <div class="prod-img relative">
+                                    <img src="./assets/images/prod1.jpg" alt=""
+                                        class="w-full rounded-md border border-border">
+                                    <div class="lock bg-[#f7f7f8] border border-border rounded-full text-red w-10 h-10 p-2 inline-block text-center absolute left-[50%]"
+                                        style="transform: translate(-50%,-50%);">
+                                        <i class="fa-solid fa-lock"></i>
+                                    </div>
+                                </div>
+                                <div class="prod-content text-center">
+                                    <span
+                                        class="text-[#777777] font-light text-[13px] mt-6 inline-block font-serif">Vegetables</span>
+                                    <div class="rating text-[#F5885F] text-sm">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <span class="text-para text-[11px]">(4.5)</span>
+                                    </div>
+                                    <p class="text-[15px] font-medium mt-3">Fresh organic villa farm lomon <br>
+                                        500gm pack</p>
+                                    <div class="price mt-3">
+                                        <span class="font-bold text-red">$120.25</span>
+                                        <span class="font-light text-para text-[13px] line-through">$123.25</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-4/12 px-3">
+                            <div class="product-card border border-border rounded-md p-3">
+                                <div class="prod-img relative">
+                                    <img src="./assets/images/prod2.jpg" alt=""
+                                        class="w-full rounded-md border border-border">
+                                    <div class="lock bg-[#f7f7f8] border border-border rounded-full text-red w-10 h-10 p-2 inline-block text-center absolute left-[50%]"
+                                        style="transform: translate(-50%,-50%);">
+                                        <i class="fa-solid fa-lock"></i>
+                                    </div>
+                                </div>
+                                <div class="prod-content text-center">
+                                    <span
+                                        class="text-[#777777] font-light text-[13px] mt-6 inline-block font-serif">Snacks</span>
+                                    <div class="rating text-[#F5885F] text-sm">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="text-para text-[11px]">(5.0)</span>
+                                    </div>
+                                    <p class="text-[15px] font-medium mt-3">Best snakes with hazel nut pack
+                                        200gm</p>
+                                    <div class="price mt-3">
+                                        <span class="font-bold text-red">$145</span>
+                                        <span class="font-light text-para text-[13px] line-through">$150</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-4/12 px-3">
+                            <div class="product-card border border-border rounded-md p-3">
+                                <div class="prod-img relative">
+                                    <img src="./assets/images/prod3.jpg" alt=""
+                                        class="w-full rounded-md border border-border">
+                                    <div class="lock bg-[#f7f7f8] border border-border rounded-full text-red w-10 h-10 p-2 inline-block text-center absolute left-[50%]"
+                                        style="transform: translate(-50%,-50%);">
+                                        <i class="fa-solid fa-lock"></i>
+                                    </div>
+                                </div>
+                                <div class="prod-content text-center">
+                                    <span
+                                        class="text-[#777777] font-light text-[13px] mt-6 inline-block font-serif">Fruits</span>
+                                    <div class="rating text-[#F5885F] text-sm">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <span class="text-para text-[11px]">(4.5)</span>
+                                    </div>
+                                    <p class="text-[15px] font-medium mt-3">Fresh organic apple 1kg simla
+                                        marming</p>
+                                    <div class="price mt-3">
+                                        <span class="font-bold text-red">$120.25</span>
+                                        <span class="font-light text-para text-[13px] line-through">$123.25</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-4/12 px-3 mt-6">
+                            <div class="product-card border border-border rounded-md p-3">
+                                <div class="prod-img relative">
+                                    <img src="./assets/images/prod4.jpg" alt=""
+                                        class="w-full rounded-md border border-border">
+                                    <div class="lock bg-[#f7f7f8] border border-border rounded-full text-red w-10 h-10 p-2 inline-block text-center absolute left-[50%]"
+                                        style="transform: translate(-50%,-50%);">
+                                        <i class="fa-solid fa-lock"></i>
+                                    </div>
+                                </div>
+                                <div class="prod-content text-center">
+                                    <span
+                                        class="text-[#777777] font-light text-[13px] mt-6 inline-block font-serif">Fruits</span>
+                                    <div class="rating text-[#F5885F] text-sm">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <span class="text-para text-[11px]">(3.2)</span>
+                                    </div>
+                                    <p class="text-[15px] font-medium mt-3">Organic fresh venila farm
+                                        watermelon 5kg</p>
+                                    <div class="price mt-3">
+                                        <span class="font-bold text-red">$50.30</span>
+                                        <span class="font-light text-para text-[13px] line-through">$72.60</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-4/12 px-3 mt-6">
+                            <div class="product-card border border-border rounded-md p-3">
+                                <div class="prod-img relative">
+                                    <img src="./assets/images/prod5.jpg" alt=""
+                                        class="w-full rounded-md border border-border">
+                                    <div class="lock bg-[#f7f7f8] border border-border rounded-full text-red w-10 h-10 p-2 inline-block text-center absolute left-[50%]"
+                                        style="transform: translate(-50%,-50%);">
+                                        <i class="fa-solid fa-lock"></i>
+                                    </div>
+                                </div>
+                                <div class="prod-content text-center">
+                                    <span
+                                        class="text-[#777777] font-light text-[13px] mt-6 inline-block font-serif">Vegetables</span>
+                                    <div class="rating text-[#F5885F] text-sm">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <span class="text-para text-[11px]">(4.5)</span>
+                                    </div>
+                                    <p class="text-[15px] font-medium mt-3">Sweet crunchy nut mix 250gm
+                                        pack</p>
+                                    <div class="price mt-3">
+                                        <span class="font-bold text-red">$120.25</span>
+                                        <span class="font-light text-para text-[13px] line-through">$123.25</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-4/12 px-3 mt-6">
+                            <div class="product-card border border-border rounded-md p-3">
+                                <div class="prod-img relative">
+                                    <img src="./assets/images/prod6.jpg" alt=""
+                                        class="w-full rounded-md border border-border">
+                                    <div class="lock bg-[#f7f7f8] border border-border rounded-full text-red w-10 h-10 p-2 inline-block text-center absolute left-[50%]"
+                                        style="transform: translate(-50%,-50%);">
+                                        <i class="fa-solid fa-lock"></i>
+                                    </div>
+                                </div>
+                                <div class="prod-content text-center">
+                                    <span
+                                        class="text-[#777777] font-light text-[13px] mt-6 inline-block font-serif">Bakery</span>
+                                    <div class="rating text-[#F5885F] text-sm">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <span class="text-para text-[11px]">(4.5)</span>
+                                    </div>
+                                    <p class="text-[15px] font-medium mt-3">Delicious white baked fresh bread
+                                        and toast</p>
+                                    <div class="price mt-3">
+                                        <span class="font-bold text-red">$20</span>
+                                        <span class="font-light text-para text-[13px] line-through">$22.10</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bakery-product py-[100px] flex relative">
+                    <img src="./assets/images/vector/vec4.png" alt="vector" class="absolute top-5 -left-20">
+                    <img src="./assets/images/vector/vec5.png" alt="vector" class="absolute bottom-24 -right-16">
+                    <div class="w-4/12 px-2">
+                        <div class="bakery-card relative">
+                            <img src="./assets/images/bak1.jpg" alt="" class="w-full">
+                            <div class="bakery-text absolute top-10 left-6">
+                                <h6 class="text-xl font-serif font-bold">Healthy <br>
+                                    Bakery Products</h6>
+                                <span class="text-red font-bold text-xl mt-2 flex items-center">30% <p
+                                        class="text-sm text-[#777777] font-normal ml-2">Off on
+                                        first order
+                                    </p></span>
+                                <div class="btn bg-red inline-block py-2 px-5 rounded-md mt-4">
+                                    <a href="#" class="font-medium text-white">
+                                        Shop Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4/12 px-2">
+                        <div class="bakery-card relative">
+                            <img src="./assets/images/bak2.jpg" alt="" class="w-full">
+                            <div class="bakery-text absolute top-10 left-6">
+                                <h6 class="text-xl font-serif font-bold">Fresh <br>
+                                    Snacks & Sweets</h6>
+                                <span class="text-red font-bold text-xl mt-2 flex items-center">20% <p
+                                        class="text-sm text-[#777777] font-normal ml-2">Off on
+                                        first order
+                                    </p></span>
+                                <div class="btn bg-red inline-block py-2 px-5 rounded-md mt-4">
+                                    <a href="#" class="font-medium text-white">
+                                        Shop Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4/12 px-2">
+                        <div class="bakery-card relative">
+                            <img src="./assets/images/bak3.jpg" alt="" class="w-full">
+                            <div class="bakery-text absolute top-10 left-6">
+                                <h6 class="text-xl font-serif font-bold">Fresh & healthy <br>
+                                    Organic Fruits</h6>
+                                <span class="text-red font-bold text-xl mt-2 flex items-center">35% <p
+                                        class="text-sm text-[#777777] font-normal ml-2">Off on
+                                        first order
+                                    </p></span>
+                                <div class="btn bg-red inline-block py-2 px-5 rounded-md mt-4">
+                                    <a href="#" class="font-medium text-white">
+                                        Shop Now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="services flex relative">
+                    <img src="./assets/images/vector/vec6.png" alt="vector" class="absolute top-5 -left-20">
+                    <div class="w-3/12 px-2">
+                        <div class="service-card bg-[#f7f7f8] border border-border rounded-sm p-4">
+                            <div class="flex justify-center">
+                                <img src="./assets/images/mail.png" alt="mail" class="mb-4">
+                            </div>
+                            <h6 class="text-lg font-semibold text-center mb-2">Product Packing</h6>
+                            <p class="text-para font-light text-center text-sm">Lorem ipsum dolor sit amet, <br>
+                                consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                    <div class="w-3/12 px-2">
+                        <div class="service-card bg-[#f7f7f8] border border-border rounded-sm p-4">
+                            <div class="flex justify-center">
+                                <img src="./assets/images/support.png" alt="mail" class="mb-4">
+                            </div>
+                            <h6 class="text-lg font-semibold text-center mb-2">24X7 Support</h6>
+                            <p class="text-para font-light text-center text-sm">Lorem ipsum dolor sit amet, <br>
+                                consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                    <div class="w-3/12 px-2">
+                        <div class="service-card bg-[#f7f7f8] border border-border rounded-sm p-4">
+                            <div class="flex justify-center">
+                                <img src="./assets/images/truck.png" alt="mail" class="mb-4">
+                            </div>
+                            <h6 class="text-lg font-semibold text-center mb-2">Delivery in 5 Days</h6>
+                            <p class="text-para font-light text-center text-sm">Lorem ipsum dolor sit amet, <br>
+                                consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                    <div class="w-3/12 px-2">
+                        <div class="service-card bg-[#f7f7f8] border border-border rounded-sm p-4">
+                            <div class="flex justify-center">
+                                <img src="./assets/images/payment.png" alt="mail" class="mb-4">
+                            </div>
+                            <h6 class="text-lg font-semibold text-center mb-2">Payment Secure</h6>
+                            <p class="text-para font-light text-center text-sm">Lorem ipsum dolor sit amet, <br>
+                                consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- popular products end -->
+        <!-- counter start -->
+        <section class="counter py-40 bg-no-repeat bg-cover"
+            style="background-image: url(./assets/images/counter.jpg);">
+            <div class="container">
+                <div class="counter-box bg-[#f4ddcd] p-4 inline-block shadow-md">
+                    <span class="text-red font-serif text-[26px] font-bold">35%</span>
+                    <span class="font-light">OFF</span>
+                    <h6 class="font-semibold text-[28px]">Great deal on organic food.</h6>
+                    <p class="text-para text-sm font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        <br>
+                        do maecenas accumsan lacus vel facilisis.
+                    </p>
+                    <!-- counter added -->
+                    <div class="count border border-[#E9CBBE] rounded-sm inline-block">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- counter end -->
+        <!-- gallery start -->
+        <section class="gallery py-[100px] relative">
+            <img src="./assets/images/vector/vec7.png" alt="vector" class="absolute bottom-[50%] right-0">
+            <div class="container flex">
+                <div class="w-3/12 px-2">
+                    <img src="./assets/images/gall1.jpg" alt="gal1" class="w-full">
+                </div>
+                <div class="w-3/12 px-2">
+                    <img src="./assets/images/gall2.jpg" alt="gal1" class="w-full">
+                </div>
+                <div class="w-6/12 px-2 relative">
+                    <img src="./assets/images/gall3.jpg" alt="gal1" class="w-full">
+                    <div class="gal-text text-end absolute right-10 top-40">
+                        <h6 class="text-2xl font-bold font-serif">Organic & Healthy <br> Vegetables</h6>
+                        <span class="font-semibold font-serif text-xl block my-4">25% <span
+                                class="text-sm">OFF</span></span>
+                        <div class="btn bg-red inline-block py-2 px-5 rounded-md mt-2">
+                            <a href="#" class="font-medium text-white">
+                                Shop Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- gallery end -->
+        <!-- people review start  -->
+        <section class="people-review relative pb-[100px]">
+            <img src="./assets/images/vector/vec8.png" alt="vector" class="absolute top-0 -left-5">
+            <div class="container">
+                <div class="sec-title text-center mb-[30px]">
+                    <h2 class="text-[32px] font-semibold mb-3">Great Words From People</h2>
+                    <p class="text-para text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor <br>
+                        incididunt ut labore lacus vel facilisis.</p>
+                </div>
+                <div class="flex">
+                    <div class="w-4/12 px-2">
+                        <div class="review-card bg-[#f7f7f8] border border-border rounded-sm p-6 text-center relative">
+                            <!-- <img src="./assets/images/revman1.jpg" alt="" class="absolute -top-[25%] left-[50%]"
+                                style="transform: translate(-50%,50%);"> -->
+                            <img src="./assets/images/rev1.png" alt="" class="absolute">
+                            <span class="text-sm text-para mb-2 mt-4 inline-block">Co Founder</span>
+                            <h6 class="font-bold text-lg mb-2">Stephen Smith</h6>
+                            <p class="text-sm text-para">“eiusmpsu dolor sit amet, conse cte tur <br>
+                                ng elit, sed do eiusmod tem lacus vel <br>
+                                facilisis.”</p>
+                            <div class="rating text-[#F5885F] text-sm mt-4">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <img src="./assets/images/rev2.png" alt="" class="absolute right-4 bottom-2">
+                        </div>
+                    </div>
+                    <div class="w-4/12 px-2">
+                        <div class="review-card bg-[#f7f7f8] border border-border rounded-sm p-6 text-center relative">
+                            <!-- <img src="./assets/images/revman1.jpg" alt="" class="absolute -top-[25%] left-[50%]"
+                                style="transform: translate(-50%,50%);"> -->
+                            <img src="./assets/images/rev1.png" alt="" class="absolute">
+                            <span class="text-sm text-para mb-2 mt-4 inline-block">Manager</span>
+                            <h6 class="font-bold text-lg mb-2">Lorem Robinson</h6>
+                            <p class="text-sm text-para">“eiusmpsu dolor sit amet, conse cte tur <br>
+                                ng elit, sed do eiusmod tem lacus vel <br>
+                                facilisis.”</p>
+                            <div class="rating text-[#F5885F] text-sm mt-4">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <img src="./assets/images/rev2.png" alt="" class="absolute right-4 bottom-2">
+                        </div>
+                    </div>
+                    <div class="w-4/12 px-2">
+                        <div class="review-card bg-[#f7f7f8] border border-border rounded-sm p-6 text-center relative">
+                            <!-- <img src="./assets/images/revman1.jpg" alt="" class="absolute -top-[25%] left-[50%]"
+                                style="transform: translate(-50%,50%);"> -->
+                            <img src="./assets/images/rev1.png" alt="" class="absolute">
+                            <span class="text-sm text-para mb-2 mt-4 inline-block">Team Leader</span>
+                            <h6 class="font-bold text-lg mb-2">Saddika Alard</h6>
+                            <p class="text-sm text-para">“eiusmpsu dolor sit amet, conse cte tur <br>
+                                ng elit, sed do eiusmod tem lacus vel <br>
+                                facilisis.”</p>
+                            <div class="rating text-[#F5885F] text-sm mt-4">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <img src="./assets/images/rev2.png" alt="" class="absolute right-4 bottom-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- people review end  -->
+        <!-- news start -->
+        <section class="news mb-[100px] relative">
+            <img src="./assets/images/vector/vec9.png" alt="vector" class="absolute top-10 right-6">
+            <img src="./assets/images/vector/vec10.png" alt="vector" class="absolute bottom-10 left-4">
+            <div class="container">
+                <div class="sec-title text-center mb-[30px]">
+                    <h2 class="text-[32px] font-semibold mb-3">Latest News</h2>
+                    <p class="text-para text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor <br>
+                        incididunt ut labore lacus vel facilisis.</p>
+                </div>
+                <div class="flex">
+                    <div class="w-4/12 px-2">
+                        <div class="news-card border border-border rounded-md">
+                            <div class="news-content p-4">
+                                <span class="text-para text-sm">By Admin | Snacks</span>
+                                <h6 class="text-[17px] font-semibold my-3">
+                                    Urna pretium elit mauris cursus at elit Vestibulum.
+                                </h6>
+                                <span class="text-[#64B496] text-sm font-medium inline-block mb-6">Read More <i
+                                        class="fa-solid fa-arrow-right ml-1"></i></span>
+                            </div>
+                            <div class="news-img relative">
+                                <img src="./assets/images/news1.jpg" alt="" class="w-full rounded-b-md">
+                                <div class="date bg-para inline-block py-2 px-4 absolute bottom-4 right-4">
+                                    <span class="font-bold text-[23px] text-white block">10</span>
+                                    <span class="text-[17px] text-white">Oct</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4/12 px-2">
+                        <div class="news-card border border-border rounded-md">
+                            <div class="news-content p-4">
+                                <span class="text-para text-sm">By Admin | Food</span>
+                                <h6 class="text-[17px] font-semibold my-3">
+                                    Best guide to Shopping for organic
+                                    ingredients.
+                                </h6>
+                                <span class="text-[#64B496] text-sm font-medium inline-block mb-6">Read More <i
+                                        class="fa-solid fa-arrow-right ml-1"></i></span>
+                            </div>
+                            <div class="news-img relative">
+                                <img src="./assets/images/news2.jpg" alt="" class="w-full rounded-b-md">
+                                <div class="date bg-para inline-block py-2 px-4 absolute bottom-4 right-4">
+                                    <span class="font-bold text-[23px] text-white block">09</span>
+                                    <span class="text-[17px] text-white">Sep</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-4/12 px-2">
+                        <div class="news-card border border-border rounded-md">
+                            <div class="news-content p-4">
+                                <span class="text-para text-sm">By Admin | Snacks</span>
+                                <h6 class="text-[17px] font-semibold my-3">
+                                    Cursus at elit vestibulum urna pretium
+                                    elit mauris.
+                                </h6>
+                                <span class="text-[#64B496] text-sm font-medium inline-block mb-6">Read More <i
+                                        class="fa-solid fa-arrow-right ml-1"></i></span>
+                            </div>
+                            <div class="news-img relative">
+                                <img src="./assets/images/news3.jpg" alt="" class="w-full rounded-b-md">
+                                <div class="date bg-para inline-block py-2 px-4 absolute bottom-4 right-4">
+                                    <span class="font-bold text-[23px] text-white block">12</span>
+                                    <span class="text-[17px] text-white">Oct</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- news end -->
+    </main>
+    <!-- main end -->
+    <!-- footer start -->
+    <footer class="bg-[#F7F7F8]">
+        <section class="footer-head py-[100px] relative">
+            <img src="./assets/images/vector/vec11.png" alt="vector" class="absolute -top-8 right-20">
+            <img src="./assets/images/vector/vec12.png" alt="vector" class="absolute bottom-[40%] -left-4">
+            <div class="container flex">
+                <div class="w-4/12">
+                    <div class="logo">
+                        <img src="./assets/images/logo/footerlogo.png" alt="">
+                    </div>
+                    <p class="text-sm text-para mb-4">FoodTrove is the biggest market of grocery products. Get your
+                        daily
+                        needs from
+                        our
+                        store.</p>
+                    <div class="location flex mb-3">
+                        <i class="fa-solid fa-location-dot text-red mr-2"></i>
+                        <p class="text-sm text-para">51 Green St.Huntington ohaio beach ontario, NY
+                            11746 KY 4783, USA.</p>
+                    </div>
+                    <div class="mail flex mb-3">
+                        <i class="fa-regular fa-envelope text-red mr-2"></i>
+                        <p class="text-sm text-para">example@email.com</p>
+                    </div>
+                    <div class="location flex">
+                        <i class="fa-solid fa-phone text-red mr-2"></i>
+                        <p class="text-sm text-para">+91 123 4567890</p>
+                    </div>
+                </div>
+                <div class="w-2/12">
+                    <div class="company">
+                        <h2 class="text-lg font-bold font-serif my-3">Company</h2>
+                        <ul>
+                            <li class="mb-2">
+                                <a href="#" class="text-sm text-para">
+                                    About Us
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-sm text-para">
+                                    Delivery Information
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-sm text-para">
+                                    Privacy Policy
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-sm text-para">
+                                    Terms & Conditions
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-sm text-para">
+                                    contact Us
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-sm text-para">
+                                    Support Center
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w-2/12">
+                    <div class="category">
+                        <h2 class="text-lg font-bold font-serif my-3">Category</h2>
+                        <ul>
+                            <li class="mb-2">
+                                <a href="#" class="text-sm text-para">
+                                    Dairy & Bakery
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-sm text-para">
+                                    Fruits & Vegetable
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-sm text-para">
+                                    Snack & Spice
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-sm text-para">
+                                    Juice & Drinks
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-sm text-para">
+                                    Chicken & Meat
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="#" class="text-sm text-para">
+                                    Fast Food
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w-4/12">
+                    <div class="newsletter">
+                        <h2 class="text-lg font-bold font-serif my-3">Subscribe Our Newsletter</h2>
+                        <input type="text" placeholder="Search here..."
+                            class="w-full placeholder:text-sm p-3 rounded-md border border-border mb-4">
+                        <div class="social flex">
+                            <div class="icon border border-border inline-block py-2 px-3 rounded-md mr-3">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="icon border border-border inline-block py-2 px-3 rounded-md mr-3">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </div>
+                            <div class="icon border border-border inline-block py-2 px-3 rounded-md mr-3">
+                                <i class="fa-brands fa-dribbble"></i>
+                            </div>
+                            <div class="icon border border-border inline-block py-2 px-3 rounded-md">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>
+                        <div class="letter-img flex mt-3">
+                            <img src="./assets/images/l1.jpg" alt="" class="pr-2">
+                            <img src="./assets/images/l2.jpg" alt="" class="px-2">
+                            <img src="./assets/images/l3.jpg" alt="" class="px-2">
+                            <img src="./assets/images/l4.jpg" alt="" class="px-2">
+                            <img src="./assets/images/l5.jpg" alt="" class="pl-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-end relative">
+            <img src="./assets/images/vector/vec13.png" alt="vector" class="absolute -top-8 right-6">
+            <div class="container">
+                <div class="border-t border-border text-sm text-center py-4">
+                    © 2024 <span class="text-red">FoodTrove</span> <span>All Right Reserved.</span>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- footer end -->
+</body>
+
+</html>
